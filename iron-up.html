@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta name="description" content="Iron Up Kit is an easy-to-use supplement for hair growth.">
+  <meta name="keywords" content="Iron up,Iron,up,mineral,metal,vital">
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="fluence Pharma">
+  <title>fluencepharma.in | Iron Up</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+  <link href="css/vendor/vendor.min.css" rel="stylesheet">
+  <link href="css/style-fishing.css" rel="stylesheet">
+  <link href="fonts/icomoon/icons.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 125px;
+      /* height of your sticky header */
+    }
+
+    .prd-listview .prd .prd-inside {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  </style>
+  <style>
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .content {
+
+      display: none;
+    }
+
+    #loadMore {
+      transition: .3s;
+    }
+
+    #loadMore:hover {
+      text-decoration: none;
+    }
+
+    .noContent {
+      color: #000 !important;
+      background-color: transparent !important;
+      pointer-events: none;
+    }
+  </style>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K4PLHXGJQQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-K4PLHXGJQQ');
+  </script>
+</head>
+
+<body style="height:1000px" class="template-collection has-smround-btns has-loader-bg equal-height has-sm-container">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#page-content").load("functional.html", function () {
+        setTimeout(() => {
+          window.location.href = "#iron-up";
+        }, 1000);
+      });
+    });
+  </script>
+  <div id="page-content"></div>
+  <script src="js/app-html.js"></script>
+</body>
+
+</html>
